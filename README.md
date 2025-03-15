@@ -53,7 +53,7 @@ Modify the **ponder.config.ts** file to add/remove contracts or update network s
 ```js
 export default createConfig({
   networks: {
-    sonicBlazeTestnet: {
+    baseSepolia: {
       chainId: 84532,
       transport: http(process.env.PONDER_RPC_URL_1),
     },
